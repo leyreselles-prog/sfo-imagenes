@@ -30,7 +30,13 @@ window.db2025 = { records: [] };
         { art: '126020313841', desc: 'CAMISA OXFORD RAYAS MARINO' },
         { art: '126020350191', desc: 'CAMISA OXFORD RAYAS MALVA' },
         { art: '126020492096', desc: 'CAMISA POLERA POCKET DENIM' },
-        { art: '126020323768', desc: 'CAMISA CONFORT TENCEL ROSA' }
+        { art: '126020323768', desc: 'CAMISA CONFORT TENCEL ROSA' },
+        { art: '126092500420', desc: 'BAÑADOR IKAT NARANJA' },
+        { art: '126092501828', desc: 'BAÑADOR LISBOA CORAL' },
+        { art: '126092511028', desc: 'BAÑADOR CASUAL LISO CORAL' },
+        { art: 'S25040443', desc: 'CAMISA POLERA LISSOME LI-CO CELESTE' },
+        { art: '126020310416', desc: 'CAMISA LISSOME LI-CO BLANCO' },
+        { art: '126020310443', desc: 'CAMISA LISSOME LI-CO CELESTE' }
     ];
     
         window.noRefsList = [
