@@ -325,6 +325,10 @@
     });
 
     (function bootstrapFromServer() {
+        const ts = document.getElementById('data-timestamp');
+        if (ts && window.DATA_GENERATED_AT) {
+            ts.textContent = 'Datos actualizados: ' + window.DATA_GENERATED_AT;
+        }
         const d = window.SERVER_DATA || {};
         if (d.articulos && d.ventas2025 && d.ventas2026 && d.stock) {
             processAndBuild(d);
