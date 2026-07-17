@@ -1,5 +1,4 @@
-
-    window.db2025 = { records: [] };
+window.db2025 = { records: [] };
     window.db2026 = { records: [] };
     window.dbStock = {}; 
     window.dbStockSizes = {}; 
