@@ -2012,6 +2012,11 @@ window.db2025 = { records: [] };
         };
     }
 
+    // Mes desde el que se empieza a acumular venta/stock en la pestaña
+    // "Inv. Obsoleto" (NOREFS). 4 = Abril. Cambia solo este número si en el
+    // futuro quieres mover el inicio del acumulado a otro mes.
+    const NOREFS_YTD_START_MONTH = 4;
+
     function renderNoRefsView() {
         let mInt = parseInt(currentMonth);
         let refCodes = window.noRefsList || [];
@@ -2035,7 +2040,7 @@ window.db2025 = { records: [] };
                 if (!fam) fam = r.fam;
                 if (!cat) cat = r.cat;
                 if (r.mes === mInt) monthSales += r.unid;
-                if (r.mes <= mInt) ytdSales += r.unid;
+                if (r.mes >= NOREFS_YTD_START_MONTH && r.mes <= mInt) ytdSales += r.unid;
             });
 
             if (!seccion) seccion = 'HOMBRE';
