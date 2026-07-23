@@ -275,6 +275,83 @@ window.db2025 = { records: [] };
                     }
                 });
 
+                window.familyOverrides = {
+                    'S18111204': { desc: 'TRAJE DE BAÑO SURF AZULON', seccion: 'HOMBRE' },
+                    'S19110220': { desc: 'TRAJE DE BAÑO CACTUS NARANJA', seccion: 'HOMBRE' },
+                    'S19610228': { desc: 'TRAJE DE BAÑO NIÑO CACHEMIR CORAL', seccion: 'NIÑO' },
+                    'S19610736': { desc: 'TRAJE DE BAÑO NIÑO LOGO AMARILLO', seccion: 'NIÑO' },
+                    'S19610741': { desc: 'TRAJE DE BAÑO NIÑO LOGO MARINO', seccion: 'NIÑO' },
+                    'S19610752': { desc: 'TRAJE DE BAÑO NIÑO LOGO VERDE AGUA', seccion: 'NIÑO' },
+                    'S20110857': { desc: 'TRAJE DE BAÑO TRIP MENTA', seccion: 'HOMBRE' },
+                    'S20111149': { desc: 'TRAJE DE BAÑO ALGAS AZULON', seccion: 'HOMBRE' },
+                    'S20111228': { desc: 'TRAJE DE BAÑO STARFISH CORAL', seccion: 'HOMBRE' },
+                    'S20111347': { desc: 'TRAJE DE BAÑO LISO DENIM', seccion: 'HOMBRE' },
+                    'S20111357': { desc: 'TRAJE DE BAÑO LISO MENTA', seccion: 'HOMBRE' },
+                    'S20111361': { desc: 'TRAJE DE BAÑO LISO FRAMBUESA', seccion: 'HOMBRE' },
+                    'S20610129': { desc: 'TRAJE DE BAÑO NIÑO LOGO BICO NARANJA', seccion: 'NIÑO' },
+                    'S20610141': { desc: 'TRAJE DE BAÑO NIÑO LOGO MARINO', seccion: 'NIÑO' },
+                    'S20610152': { desc: 'TRAJE DE BAÑO NIÑO LOGO VERDE AGUA', seccion: 'NIÑO' },
+                    'S20610164': { desc: 'TRAJE DE BAÑO NIÑO LOGO BURDEOS', seccion: 'NIÑO' },
+                    'S20610168': { desc: 'TRAJE DE BAÑO NIÑO LOGO ROSA', seccion: 'NIÑO' },
+                    'S20610249': { desc: 'TRAJE DE BAÑO NIÑO PAISLEY AZUL', seccion: 'NIÑO' },
+                    'S20610349': { desc: 'TRAJE DE BAÑO NIÑO AVOCADO AZUL', seccion: 'NIÑO' },
+                    'S20610368': { desc: 'TRAJE DE BAÑO NIÑO AVOCADO ROSA', seccion: 'NIÑO' },
+                    'S20610420': { desc: 'TRAJE DE BAÑO NIÑO SEAHORSES NARANJA', seccion: 'NIÑO' },
+                    'S20610556': { desc: 'TRAJE DE BAÑO NIÑO FLOWERS PETROLEO', seccion: 'NIÑO' },
+                    'S20610564': { desc: 'TRAJE DE BAÑO NIÑO FLOWERS BURDEOS', seccion: 'NIÑO' },
+                    'S20610657': { desc: 'TRAJE DE BAÑO NIÑO TRIP MENTA', seccion: 'NIÑO' },
+                    'S20610743': { desc: 'TRAJE DE BAÑO NIÑO BALLOONS CELESTE', seccion: 'NIÑO' },
+                    'S20610836': { desc: 'TRAJE DE BAÑO NIÑO BOAT AMARILLO', seccion: 'NIÑO' },
+                    'S20610856': { desc: 'TRAJE DE BAÑO NIÑO BOAT VERDE', seccion: 'NIÑO' },
+                    'S20610928': { desc: 'TRAJE DE BAÑO NIÑO STARFISH CORAL', seccion: 'NIÑO' },
+                    'S21110128': { desc: 'TRAJE DE BAÑO LOGO CORAL', seccion: 'HOMBRE' },
+                    'S21110130': { desc: 'TRAJE DE BAÑO LOGO AMARILLO', seccion: 'HOMBRE' },
+                    'S21110141': { desc: 'TRAJE DE BAÑO LOGO MARINO', seccion: 'HOMBRE' },
+                    'S21110168': { desc: 'TRAJE DE BAÑO LOGO ROSA', seccion: 'HOMBRE' },
+                    'S21110328': { desc: 'TRAJE DE BAÑO FLOWERS CORAL', seccion: 'HOMBRE' },
+                    'S21110356': { desc: 'TRAJE DE BAÑO FLOWERS PETROLEO', seccion: 'HOMBRE' },
+                    'S21110528': { desc: 'TRAJE DE BAÑO LEAVES CORAL', seccion: 'HOMBRE' },
+                    'S21110830': { desc: 'TRAJE DE BAÑO SHELLS ECO AMARILLO', seccion: 'HOMBRE' },
+                    'S21110957': { desc: 'TRAJE DE BAÑO SURFING MENTA', seccion: 'HOMBRE' },
+                    'S21111141': { desc: 'TRAJE DE BAÑO FLOAT ECO MARINO', seccion: 'HOMBRE' },
+                    'S21111255': { desc: 'TRAJE DE BAÑO LISO KHAKI', seccion: 'HOMBRE' },
+                    'S21610128': { desc: 'TRAJE DE BAÑO NIÑO LOGO CORAL', seccion: 'NIÑO' },
+                    'S21610130': { desc: 'TRAJE DE BAÑO NIÑO LOGO AMARILLO', seccion: 'NIÑO' },
+                    'S21610141': { desc: 'TRAJE DE BAÑO NIÑO LOGO MARINO', seccion: 'NIÑO' },
+                    'S21610157': { desc: 'TRAJE DE BAÑO NIÑO LOGO MENTA', seccion: 'NIÑO' },
+                    'S21610168': { desc: 'TRAJE DE BAÑO NIÑO LOGO ROSA', seccion: 'NIÑO' },
+                    'S21610243': { desc: 'TRAJE DE BAÑO NIÑO PAISLEY CELESTE', seccion: 'NIÑO' },
+                    'S21610328': { desc: 'TRAJE DE BAÑO NIÑO FLOWERS CORAL', seccion: 'NIÑO' },
+                    'S21610356': { desc: 'TRAJE DE BAÑO NIÑO FLOWERS PETROLEO', seccion: 'NIÑO' },
+                    'S21610556': { desc: 'TRAJE DE BAÑO NIÑO SUBMARINE PETROLEO', seccion: 'NIÑO' },
+                    'S21610730': { desc: 'TRAJE DE BAÑO NIÑO SHELLS AMARILLO', seccion: 'NIÑO' },
+                    'S21611061': { desc: 'TRAJE DE BAÑO NIÑO DUCK FRAMBUESA', seccion: 'NIÑO' },
+                    'S21611096': { desc: 'TRAJE DE BAÑO NIÑO DUCK DENIM', seccion: 'NIÑO' },
+                    'ES21110152': { desc: 'TRAJE DE BAÑO LOGO BICOLOR VERDE AGUA', seccion: 'HOMBRE' },
+                    'ES21110161': { desc: 'TRAJE DE BAÑO LOGO BICOLOR FRAMBUESA', seccion: 'HOMBRE' },
+                    'ES21110443': { desc: 'TRAJE DE BAÑO BALLOONS CELESTE', seccion: 'HOMBRE' },
+                    'ES21110447': { desc: 'TRAJE DE BAÑO BALLOONS MARINO', seccion: 'HOMBRE' },
+                    'ES21110541': { desc: 'TRAJE DE BAÑO FISHES MARINO', seccion: 'HOMBRE' },
+                    'ES21110740': { desc: 'TRAJE DE BAÑO PAISLEY AZUL', seccion: 'HOMBRE' }
+                };
+
+                // Parchea el maestro: si el codigo no existe, o existe pero sin
+                // familia/descripcion/seccion, se completa con los datos de arriba.
+                // Se ejecuta ANTES de construir productMaster y de parsear las ventas,
+                // por lo que el arreglo se propaga a TODAS las pestañas (Peso Familias,
+                // TOP 20, Peso Tallas, Slow Movers, Promociones, S26, Inv. Obsoleto).
+                Object.keys(window.familyOverrides).forEach(art => {
+                    const ov = window.familyOverrides[art];
+                    if (!window.articlesMaster[art]) {
+                        window.articlesMaster[art] = { desc: '', fam: '', seccion: '', cat: '' };
+                    }
+                    const m = window.articlesMaster[art];
+                    if (!m.fam) m.fam = 'BAÑADOR';
+                    if (!m.desc) m.desc = ov.desc;
+                    if (!m.seccion) m.seccion = ov.seccion;
+                    if (!m.cat) m.cat = 'TEXTIL';
+                });
+
                 window.productMaster = {};
                 Object.keys(window.articlesMaster).forEach(art => {
                     window.productMaster[art] = window.articlesMaster[art];
