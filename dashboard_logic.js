@@ -36,9 +36,9 @@ window.db2025 = { records: [] };
         { art: '126092511028', desc: 'BAÑADOR CASUAL LISO CORAL' },
         { art: 'S25040443', desc: 'CAMISA POLERA LISSOME LI-CO CELESTE' },
         { art: '126020310416', desc: 'CAMISA LISSOME LI-CO BLANCO' },
-        { art: '126020310443', desc: 'CAMISA LISSOME LI-CO CELESTE' }
-		{ art: '126020310456', desc: 'CAMISA LISSOME LI-CO OCEANO' }
-		{ art: '126904230250', desc: 'TOALLA LOGO VERDE' }
+        { art: '126020310443', desc: 'CAMISA LISSOME LI-CO CELESTE' },
+		{ art: '126020310456', desc: 'CAMISA LISSOME LI-CO OCEANO' },
+		{ art: '126904230250', desc: 'TOALLA LOGO VERDE' },
 		{ art: '126904230141', desc: 'TOALLA CLASSY STRIPES MARINO' }
     ];
     
